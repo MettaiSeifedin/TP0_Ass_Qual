@@ -21,7 +21,7 @@ public class FactorialTest {
 
     }
     @Test
-    public void FactorialTestShouldReturnTheRightFactorialWhenNumberIsEqualGreaterThen1(){
+    public void FactorialTestShouldReturnTheRightFactorialWhenNumberIsGreaterThen1(){
         int result = Factorial.factorial(2);
         Assertions.assertEquals(2,result);
 
